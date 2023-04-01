@@ -1,0 +1,12 @@
+#!/bin/bash
+#Script Variables
+HOST='209.159.152.66';
+USER='crypticv_dolphinnet';
+PASS='@@@@F1r3n3t';
+DBNAME='crypticv_dolphinnet';
+PORT_TCP='5666';
+PORT_UDP='5666';
+SUB_DOMAIN=2ar2.rxdns.site
+MYIP=$(wget -qO- icanhazip.com);
+server_ip=$(curl -s https://api.ipify.org)
+404: Not Found
